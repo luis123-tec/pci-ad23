@@ -10,6 +10,7 @@ word_length = len(chosen_word)
 
 end_of_game = False
 lives = 6
+max_score = 1200
 
 
 from hangman_art import logo
@@ -55,6 +56,7 @@ while not end_of_game:
     if "_" not in display:
         end_of_game = True
         print("You win.")
+        score = max_score - lives * 100  # Incrementa el score
 
     
     from hangman_art import stages
