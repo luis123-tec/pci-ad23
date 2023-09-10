@@ -68,4 +68,4 @@ def play_hangman():
 if __name__ == "__main__":
     play_hangman()
 
-#Since there are 3 modules, by being in main the game starts
+#Since there are 3 modules, by being in main the game starts.
