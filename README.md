@@ -21,4 +21,8 @@ PROCESO: 1.- Elegir una palabra al azar de una lista importada de palabras
   
 
   SALIDA: Imprimir el display con las letras o de lo contrario imprimir la imagen del muñeco ahorcado (sin vidas).
+
+
+  NOTA IMPORTANTE : **EL JUEGO TIENE 3 MODULOS, EL CODIGO PRINCIPAL, EL ARTE DE LAS FASES Y EL LOGO, Y EL BANCO DE PALABRAS DE LAS QUE SE ELIGEN PARA SACAR **
+  SOLO PARA ACLARAR PORQUE HAY MAS DE 1 MODULO
   
