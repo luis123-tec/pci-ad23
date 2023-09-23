@@ -21,7 +21,7 @@ def start_game():
 def play_hangman():
     #Call in the function and the variables to start the game
     chosen_word, word_length, end_of_game, lives, max_score, display = start_game()
-
+    #This while true, and not end of game, make it so you can restart the game if you so chose, and make it so that if you lose all lives, then game is false losing automatically
     while True:
         while not end_of_game:
             #Game logic
