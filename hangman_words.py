@@ -1,3 +1,4 @@
+#Lista de palabras que se utilizan para el juego
 word_list = [
 'abruptly', 
 'absurd', 
