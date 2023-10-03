@@ -1,4 +1,4 @@
-#Lista que tiene el arte de las vidas, y que se utiliza para un display de vida
+#List that holds the art, display according to live count
 
 stages = ['''
   +---+
