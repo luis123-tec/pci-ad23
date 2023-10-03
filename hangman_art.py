@@ -1,3 +1,5 @@
+#Lista que tiene el arte de las vidas, y que se utiliza para un display de vida
+
 stages = ['''
   +---+
   |   |
