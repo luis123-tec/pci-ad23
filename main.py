@@ -32,9 +32,11 @@ def play_hangman():
 
             for position in range(word_length):
                 letter = chosen_word[position]
+                #Check the postion of the chosen words using lists
 
                 if letter == guess:
                     display[position] = letter
+                    #Display the letter by using the position of it on thw list
 
             if guess not in chosen_word:
                 print(f"You guessed {guess}, that's not in the word. You lose a life.")
