@@ -5,15 +5,15 @@ from hangman_art import logo, stages
 
 def start_game():
     #Define the functions for the start of the game (word, len, lives, display)
-    chosen_word = random.choice(word_list)
-    word_length = len(chosen_word)
-
+    chosen_word = random.choice(word_list) #Choose the random word
+    word_length = len(chosen_word) #Get the lenght of the word
+    #Variables for the game
     end_of_game = False
     lives = 6
     max_score = 0
-
+    #By using this code we can print a "_" for every word in the letter
     display = ["_" for _ in range(word_length)]
-
+    #Logo and solution
     print(logo)
     print(f'Pssst, the solution is {chosen_word}.')
     return chosen_word, word_length, end_of_game, lives, max_score, display
@@ -36,15 +36,15 @@ def play_hangman():
 
                 if letter == guess:
                     display[position] = letter
-                    #Display the letter by using the position of it on thw list
-
+                    #Display the letter by using the position of it on the list
+            #What happens if you miss a word
             if guess not in chosen_word:
                 print(f"You guessed {guess}, that's not in the word. You lose a life.")
                 lives -= 1
                 if lives == 0:
                     end_of_game = True
                     print("You lose.")
-
+            #Join all words together
             print(" ".join(display))
 
             if "_" not in display:
